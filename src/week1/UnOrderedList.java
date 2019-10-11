@@ -9,7 +9,7 @@ public class UnOrderedList<T> {
 		Node n = new Node(data);
 		if(head ==null){
 			head =n;
-		//	tail =n;
+			tail =n;
 			size++;
 		}else{
 		
